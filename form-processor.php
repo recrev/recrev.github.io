@@ -25,4 +25,5 @@ $body .= "\n";
 
 mail($emailTo, $subject, $body, "From: <$emailFrom>");
 
+header("Location: contact-thanks.html");
 ?>
