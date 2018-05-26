@@ -1,1 +1,32 @@
-Hello World
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>RecRev Form</title>
+  </head>
+  <body>
+    <header>
+      <img src="images/recrev_logo.png">
+    </header>
+
+    <form method="post" action="form-processor.php">
+
+      Name: <input type="text" name="Name" id="Name"><br>
+      Email: <input type"email" name="Email" id="Email"><br>
+      Phone Number: <input type="tel" name="Phone" id="Phone"><br>
+      Address: <input type="text" name="Address" id="Address"><br><br>
+
+      <fieldset>
+        <legend>Type of Material</legend>
+
+          <input type="checkbox" name="Cans" id="Cans" value="Cans">Cans<br>
+          Number: <input type="text" name"NumCans" id="NumCans"><br><br>
+
+      </fieldset>
+
+      <br>
+
+      <input type="submit" value="send">
+    </form>
+  </body>
+</html>
